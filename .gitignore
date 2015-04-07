@@ -1,7 +1,5 @@
 *.class
-gate/bin/
-game/bin/
-gate/.setttings
-gate/target/
-*/.setttings
-gate/.classpath
+bin/*
+target/*
+.setttings/*
+.classpath
