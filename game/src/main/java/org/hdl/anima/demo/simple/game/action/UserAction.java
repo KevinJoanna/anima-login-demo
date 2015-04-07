@@ -97,4 +97,12 @@ public class UserAction {
 		resp.setAccount(account);
 		return resp;
 	}
+	
+	@RequestMapping(value=ID.TEST,param=RequestObject.class)
+	public ResponseObject test(RequestObject req,BackendSession session) {
+		byte[] bytes = req.getBytes();
+		ResponseObject response = new ResponseObject();
+		response.setBytes(bytes);
+		return response;
+	}
 }

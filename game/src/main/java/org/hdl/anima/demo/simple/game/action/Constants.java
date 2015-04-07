@@ -18,6 +18,10 @@ public final class Constants {
 		 * 登录消息id
 		 */
 		public static final int LOGIN = 2;
+		/**
+		 * For test
+		 */
+		public static final int TEST = 3;
 	}
 	/**
 	 * 错误码
